@@ -1,0 +1,992 @@
+Received: from mail-pf0-f174.google.com (unknown [209.85.192.174])
+	by bizmx4.qq.com (NewMx) with SMTP id 
+	for <janny.zhang@nf-technology.com>; Thu, 07 Jul 2016 16:32:47 +0800
+Received: by mail-pf0-f174.google.com with SMTP id c2so4441031pfa.2
+        for <janny.zhang@nf-technology.com>; Thu, 07 Jul 2016 01:32:47 -0700 (PDT)
+Received: from HK2PR04MB1651.apcprd04.prod.outlook.com ([40.100.2.53])
+        by smtp.googlemail.com with ESMTPSA id tj10sm2745461pab.21.2016.07.07.01.32.44
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 07 Jul 2016 01:32:45 -0700 (PDT)
+Return-Path: <kirill-malyshev@meridiantelecom.com>
+From: "Kirill Malyshev" <kirill-malyshev@meridiantelecom.com>
+To: "Janny Zhang" <janny.zhang@nf-technology.com>
+Cc: "Ilya Ulyanov" <ilya@meridiantelecom.com>
+References: <88A7A44A8C0AB44D95FD02D24B68F44F06598239@MTKMBS05N1.mediatek.inc>,<4C831BF6-C0C3-4B4E-BF82-B98F46387C5C@meridiantelecom.com>,<COL130-W52E58822DEF12ABCC0B308FA990@phx.gbl> <56fe3259.aa6f320a.34ec3.0e5fSMTPIN_ADDED_BROKEN@mx.google.com>,<CAJ7EGopeg2kBBeT6N2PjaXC9Nfxm3+rnUONCbSMxV=H7xZkm0Q@mail.gmail.com> <COL130-W27840B474B367FC617988BFA9D0@phx.gbl>,<CAJ7EGoqbd9XrTDTgp0Nbdp7NuP5CfGVXK9F=gPDBdG46J-1w4w@mail.gmail.com>,<COL130-W723C5EBE8C32B347883890FA620@phx.gbl>
+In-Reply-To: <COL130-W723C5EBE8C32B347883890FA620@phx.gbl>
+Subject: Re: GMS failure due to modified permissions.
+Date: Thu, 7 Jul 2016 16:32:45 +0800
+Message-ID: <HK2PR04MB1651EDA88B98FE96D4FF6444FA3B0@HK2PR04MB1651.apcprd04.prod.outlook.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0000_01D1F7A3.81023330"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AQHRswvpPhRimus3kUKAA9dtev3cQqAM7OSk
+Content-Language: en-us
+
+这是一封 MIME 格式的多部分邮件。
+
+------=_NextPart_000_0000_01D1F7A3.81023330
+Content-Type: text/plain;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Janny,
+
+
+
+
+FYI
+
+
+
+
+please find email thread where Owain agreed to provide a waiver for =
+PHONE
+permission for our Sales Tracking Tool.
+
+
+
+
+_______________________________
+Kirill Malyshev | Head of VAS division
+Meridian Group, Fly Moscow
+Mobile: +7 910 4333667
+Telegram: @kirillmalyshev
+Skype: kirill-malyshev
+
+
+  _____ =20
+
+From: Kirill Malyshev <kirill-malyshev@meridiantelecom.com>
+Sent: Monday, April 25, 2016 23:02
+To: Owain Davies
+Cc: Maggie Su
+Subject: RE: GMS failure due to modified permissions.=20
+=20
+Hi Owain,=20
+
+
+We've rebuild our sales tracking APK.
+Right now it requires only PHONE permission, please grand us OEM waiver =
+for
+it.
+
+*	Package Name: com.fly.sts
+*	App Signing Cert SHA-256 Fingerprint:
+*=09
+
+
+SHA256:
+DF:50:81:B7:1E:8E:64:5C:9D:DB:50:1C:2C:07:1E:72:F4:74:F2:8F:B6:0E:8C:13:F=
+6:A
+0:DD:3E:F2:13:E0:3C
+
+
+
+
+_______________________________
+Kirill Malyshev | Head of VAS division
+Meridian Group, Fly Moscow
+Mobile: +7 910 4333667=20
+Telegram: @kirillmalyshev=20
+Skype: kirill-malyshev
+
+
+  _____ =20
+
+From: otjdavies@google.com
+Date: Tue, 5 Apr 2016 10:40:18 +0000
+Subject: Re: GMS failure due to modified permissions.
+To: kirill-malyshev@meridiantelecom.com
+CC: maggie.su@nf-technology.com
+
+
+Please see responses inline.
+
+Kind regards,
+
+Owain
+
+On Mon, Apr 4, 2016 at 3:18 PM Kirill Malyshev
+<kirill-malyshev@meridiantelecom.com> wrote:
+
+
+Hi Owain,
+
+2. What about PHONE permission? We can try rebuilding our apps without
+STORAGE and LOCATION, but we need IMEI anyway.
+
+=20
+If you can restrict yourself to Phone permissions then I can grant you =
+an
+OEM waiver without needing to defer to the run-time permissions policy =
+team.
+If you go down this route I will still need to know:
+
+*	Package Name
+*	App Signing Cert SHA-256 Fingerprint
+
+
+
+
+_______________________________
+Kirill Malyshev | Head of VAS division
+Meridian Group, Fly Moscow
+Mobile: +7 910 4333667=20
+Telegram: @kirillmalyshev=20
+Skype: kirill-malyshev
+
+
+  _____ =20
+
+From: otjdavies@google.com
+Date: Fri, 1 Apr 2016 17:49:57 +0000
+Subject: Re: GMS failure due to modified permissions.
+To: maggie.su@nf-technology.com
+CC: kirill-malyshev@meridiantelecom.com
+
+
+Let's set up a call to discuss your requirements here. We have an API =
+that
+can give activations numbers if that would help you. But right now the
+location and external storage permissions can't be waived.
+
+
+On Fri, 1 Apr 2016, 09:33 Maggie Su, <maggie.su@nf-technology.com> =
+wrote:
+
+
+Hi Owain,
+=20
+Vendor told me that Sales tracking and Repair tracking APKs permissions =
+will
+effect one GTS case below. could you waive it for our project?
+com.google.android.xts.permissions.DefaultPermissionGrantPolicyTest --
+testDefaultGrants
+
+
+Many Thanks
+
+Maggie Su
+
+=20
+
+NF Technology=20
+
+Room 608, 6/F, Building A, TCL Plaza,=20
+
+GaoXin S. Rd. 1st, Hi-Tech industrial Park,=20
+
+Nanshan District, Shenzhen, China
+
+=C9=EE=DB=DA=CA=D0=C4=CF=C9=BD=C7=F8=BF=C6=BC=BC=D4=B0=C4=CF=C7=F8=B8=DF=D0=
+=C2=C4=CF=D2=BB=B5=C0TCL=B4=F3=CF=C3A=D7=F9608
+
+Tel: +86-755-2663 1502
+
+=20
+
+=B7=A2=BC=FE=C8=CB: Maggie Su [mailto:maggie.su@nf-technology.com]=20
+
+
+=B7=A2=CB=CD=CA=B1=BC=E4: 2016=C4=EA3=D4=C231=C8=D5 17:37
+
+
+=CA=D5=BC=FE=C8=CB: 'Owain Davies'
+=B3=AD=CB=CD: 'kirill-malyshev@meridiantelecom.com'
+
+
+=D6=F7=CC=E2: =B4=F0=B8=B4: GMS failure due to modified permissions.
+
+
+=20
+We will release a demo version and do full test to check which GTS cases
+will fail.=20
+tomorrow i will send gts fail cases to you for review. thanks=A3=A1
+=20
+=20
+
+
+Many Thanks
+
+Maggie Su
+
+=20
+
+NF Technology=20
+
+Room 608, 6/F, Building A, TCL Plaza,=20
+
+GaoXin S. Rd. 1st, Hi-Tech industrial Park,=20
+
+Nanshan District, Shenzhen, China
+
+=C9=EE=DB=DA=CA=D0=C4=CF=C9=BD=C7=F8=BF=C6=BC=BC=D4=B0=C4=CF=C7=F8=B8=DF=D0=
+=C2=C4=CF=D2=BB=B5=C0TCL=B4=F3=CF=C3A=D7=F9608
+
+Tel: +86-755-2663 1502
+
+=20
+
+=B7=A2=BC=FE=C8=CB: Maggie Su [mailto:maggie.su@nf-technology.com]=20
+=B7=A2=CB=CD=CA=B1=BC=E4: 2016=C4=EA3=D4=C231=C8=D5 17:08
+=CA=D5=BC=FE=C8=CB: 'Owain Davies'
+=B3=AD=CB=CD: 'kirill-malyshev@meridiantelecom.com'
+=D6=F7=CC=E2: GMS failure due to modified permissions.
+=D6=D8=D2=AA=D0=D4: =B8=DF
+
+=20
+Hi Owain=A3=AC
+=20
+Kirill told me that we have requested to leverage Sales tracking and =
+Repair
+tracking APKs permission in Android code, but will fail some cts cases. =
+So
+what should we do to waive these cases next??
+or waiting for your feedback?
+
+
+
+
+_______________________________
+Kirill Malyshev | Head of VAS division
+Meridian Group, Fly Moscow
+Mobile: +7 910 4333667
+
+Telegram: @kirillmalyshev
+
+Skype: kirill-malyshev
+
+=20
+
+
+=A7=B0=A7=E4=A7=E1=A7=E2=A7=D1=A7=D3=A7=DA=A7=E4=A7=D6=A7=DD=A7=EE: Ken =
+Liao (=C1=CE=BD=A1=D6=BE) <Ken.Liao@mediatek.com>
+
+=A7=B4=A7=D6=A7=DE=A7=D1: RE: [Frog] FS405 & FS507 issue list needed MTK =
+support
+
+=A7=A5=A7=D1=A7=E4=A7=D1: 31 =A7=DE=A7=D1=A7=E2=A7=E4=A7=D1 2016 =
+=A7=D4., 9:33:03 GMT+3
+
+=A7=B1=A7=E0=A7=DD=A7=E5=A7=E9=A7=D1=A7=E4=A7=D6=A7=DD=A7=EE: Kane Zhao =
+<kane.zhao@nf-technology.com>, 'Alex'
+<asmirnov@meridiantelecom.com>, Charlotte Lee (=C0=EE=CA=E7=C3=C0)
+<Charlotte.Lee@mediatek.com>
+
+=A7=AC=A7=E0=A7=E1=A7=DA=A7=F1: "lisa@ifrogmobile.com" =
+<lisa@ifrogmobile.com>, 'Gerasev Alexey'
+<alexg@meridiantelecom.com>, 'Pavel Belousov' =
+<pavel@meridiantelecom.com>,
+'Dmitriy Makovieiev' <dmitry.m@meridiantelecom.com>, 'Sergey Korogod'
+<sergey.korogod@meridiantelecom.com>, 'Mark Zeng'
+<mark.zeng@nf-technology.com>, 'Janny Zhang'
+<janny.zhang@nf-technology.com>, '=B3=C2=B7=BC1' =
+<chenfang@ifrogmobile.com>, 'Alisa
+Prokopieva' <alisa@meridiantelecom.com>, 'Brian Preston'
+<brian.preston@nf-technology.com>, 'tom' <tom@nf-technology.com>
+
+=20
+
+
+Hi kane,
+
+=20
+
+We provided the solution to odm.
+
+But the side effect is to modify this, GMS would fail.
+
+=20
+
+This is a trade off.   Kindly do your own judgment.
+
+=20
+
+Best regards,
+
+Ken
+
+=20
+
+From: Kane Zhao [ <mailto:kane.zhao@nf-technology.com>
+mailto:kane.zhao@nf-technology.com]=20
+Sent: Thursday, March 31, 2016 10:58 AM
+To: Ken Liao (=C1=CE=BD=A1=D6=BE); 'Alex'; Charlotte Lee =
+(=C0=EE=CA=E7=C3=C0)
+Cc:  <mailto:lisa@ifrogmobile.com> lisa@ifrogmobile.com; 'Gerasev =
+Alexey';
+'Pavel Belousov'; 'Dmitriy Makovieiev'; 'Sergey Korogod'; 'Mark Zeng';
+'Janny Zhang'; '=B3=C2=B7=BC1'; 'Alisa Prokopieva'; 'Brian Preston'; =
+'tom'
+Subject: =B4=F0=B8=B4: [Frog] FS405 & FS507 issue list needed MTK =
+support
+
+=20
+
+Hi Ken,
+
+=20
+
+Could you please update issue status to us today? There is one more =
+issue as
+following. Eservice number is ALPS02637345. Priority is super high, =
+please
+push your team to fix it as soon as possible.
+
+
+  <https://01D18C33.64E2C920>=20
+
+
+=20
+
+=20
+
+
+Thanks and best regards,
+
+Kane Zhao (PM)
+
+NF Technology HK Limited
+
+Address: Room 608, 6/F, Building A, TCL Plaza, GaoXin S. Road 1st, =
+Hi-Tech
+industrial Park, Nanshan District, Shenzhen, China
+
+Tel: +86-755-2663 4186
+
+Mob: +86 (139) 2343 5520
+
+Skype:Kane.zhao14
+
+
+------=_NextPart_000_0000_01D1F7A3.81023330
+Content-Type: text/html;
+	boundary="_000_HK2PR04MB1651EDA88B98FE96D4FF6444FA3B0HK2PR04MB1651apcp_";
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dgb2312">
+
+
+<style type=3D"text/css" style=3D"display:none;"><!-- P =
+{margin-top:0;margin-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" =
+style=3D"font-size:12pt;color:#000000;background-color:#FFFFFF;font-famil=
+y:Calibri,Arial,Helvetica,sans-serif;">
+<p>Hi Janny,</p>
+<p><br>
+</p>
+<p>FYI</p>
+<p><br>
+</p>
+<p>please find email thread&nbsp;where Owain agreed to provide a waiver =
+for PHONE permission for our Sales Tracking Tool.</p>
+<p><br>
+</p>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt; color:#000000; =
+background-color:#FFFFFF; =
+font-family:Calibri,Arial,Helvetica,sans-serif">
+<div>_______________________________</div>
+<div>Kirill Malyshev | Head of VAS division</div>
+<div>Meridian Group, Fly Moscow</div>
+<div>Mobile: &#43;7 910 4333667</div>
+<div>Telegram: @kirillmalyshev</div>
+<div>Skype: kirill-malyshev</div>
+<div>
+<div><font size=3D"2" style=3D"font-size:10pt"></font></div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" =
+color=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Kirill Malyshev =
+&lt;kirill-malyshev@meridiantelecom.com&gt;<br>
+<b>Sent:</b> Monday, April 25, 2016 23:02<br>
+<b>To:</b> Owain Davies<br>
+<b>Cc:</b> Maggie Su<br>
+<b>Subject:</b> RE: GMS failure due to modified permissions.</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div dir=3D"ltr"><font color=3D"#000000">Hi Owain,</font>
+<div><font color=3D"#000000"><br>
+</font></div>
+<div><font color=3D"#000000">We've rebuild our sales tracking =
+APK.</font></div>
+<div><font color=3D"#000000">Right now it requires only PHONE =
+permission, p</font><span style=3D"font-size:12pt">lease grand us OEM =
+waiver for it.</span></div>
+<div><br>
+</div>
+<div>
+<li>Package Name: <b>com.fly.sts</b></li><li>App Signing Cert SHA-256 =
+Fingerprint:</li><li>
+<p style=3D"font-size:11px; line-height:normal; font-family:Menlo"><br>
+</p>
+<p style=3D"font-size:11px; line-height:normal; =
+font-family:Menlo">SHA256: =
+DF:50:81:B7:1E:8E:64:5C:9D:DB:50:1C:2C:07:1E:72:F4:74:F2:8F:B6:0E:8C:13:F=
+6:A0:DD:3E:F2:13:E0:3C</p>
+</li></div>
+<div><font color=3D"#000000"><br>
+</font></div>
+<div><br>
+<br>
+<font color=3D"#2672EC" =
+style=3D"">_______________________________</font><br>
+<b>Kirill Malyshev</b>&nbsp;| Head of VAS division<br>
+Meridian Group,&nbsp;<font color=3D"#005da2" size=3D"3" face=3D"Bookman =
+Old Style, serif" =
+style=3D"font-size:12pt"><b>Fly&nbsp;</b></font>Moscow<br>
+<b>Mobile</b>: &#43;7 910 4333667
+<div><b style=3D"font-size:12pt">Telegram</b><span =
+style=3D"font-size:12pt">: @kirillmalyshev</span>
+<div><font size=3D"2" style=3D"font-size:10pt">Skype: =
+kirill-malyshev</font></div>
+</div>
+<br>
+<br>
+<div>
+<hr id=3D"stopSpelling">
+From: otjdavies@google.com<br>
+Date: Tue, 5 Apr 2016 10:40:18 &#43;0000<br>
+Subject: Re: GMS failure due to modified permissions.<br>
+To: kirill-malyshev@meridiantelecom.com<br>
+CC: maggie.su@nf-technology.com<br>
+<br>
+<div dir=3D"ltr">
+<div>Please see responses inline.</div>
+<div><br>
+</div>
+<div>
+<div class=3D"ecxgmail_quote">Kind regards,</div>
+<div class=3D"ecxgmail_quote"><br>
+</div>
+<div class=3D"ecxgmail_quote">Owain</div>
+</div>
+<div class=3D"ecxgmail_quote"><br>
+</div>
+<div>On Mon, Apr 4, 2016 at 3:18 PM Kirill Malyshev &lt;<a =
+href=3D"mailto:kirill-malyshev@meridiantelecom.com" =
+target=3D"_blank">kirill-malyshev@meridiantelecom.com</a>&gt; wrote:<br>
+</div>
+<div class=3D"ecxgmail_quote">
+<blockquote class=3D"ecxgmail_quote" style=3D"border-left:1px #ccc =
+solid; padding-left:1ex">
+<div>
+<div dir=3D"ltr"><font color=3D"#000000">Hi Owain,</font></div>
+</div>
+</blockquote>
+<blockquote class=3D"ecxgmail_quote" style=3D"border-left:1px #ccc =
+solid; padding-left:1ex">
+<div>
+<div dir=3D"ltr">2. What about PHONE permission? We can try rebuilding =
+our apps without STORAGE and LOCATION, but we need IMEI anyway.</div>
+</div>
+</blockquote>
+<div>&nbsp;</div>
+If you can restrict yourself to Phone permissions then I can grant you =
+an OEM waiver without needing to defer to the run-time permissions =
+policy team. If you go down this route I will still need to know:</div>
+<div class=3D"ecxgmail_quote">
+<ul>
+<li>Package Name</li><li>App Signing Cert SHA-256 Fingerprint</li></ul>
+</div>
+<div class=3D"ecxgmail_quote"><br>
+<blockquote class=3D"ecxgmail_quote" style=3D"border-left:1px #ccc =
+solid; padding-left:1ex">
+<div>
+<div dir=3D"ltr"><br>
+<br>
+<font color=3D"#2672EC">_______________________________</font><br>
+<b>Kirill Malyshev</b>&nbsp;| Head of VAS division<br>
+Meridian Group,&nbsp;<font face=3D"Bookman Old Style, serif" size=3D"3" =
+color=3D"#005da2" =
+style=3D"font-size:12pt"><b>Fly&nbsp;</b></font>Moscow<br>
+<b>Mobile</b>: &#43;7 910 4333667
+<div><b style=3D"font-size:12pt">Telegram</b><span =
+style=3D"font-size:12pt">: @kirillmalyshev</span>
+<div><font size=3D"2" style=3D"font-size:10pt">Skype: =
+kirill-malyshev</font></div>
+</div>
+<br>
+<br>
+</div>
+</div>
+<div>
+<div dir=3D"ltr">
+<div>
+<hr>
+From: <a href=3D"mailto:otjdavies@google.com" =
+target=3D"_blank">otjdavies@google.com</a><br>
+Date: Fri, 1 Apr 2016 17:49:57 &#43;0000<br>
+Subject: Re: GMS failure due to modified permissions.<br>
+To: <a href=3D"mailto:maggie.su@nf-technology.com" =
+target=3D"_blank">maggie.su@nf-technology.com</a><br>
+CC: <a href=3D"mailto:kirill-malyshev@meridiantelecom.com" =
+target=3D"_blank">kirill-malyshev@meridiantelecom.com</a></div>
+</div>
+</div>
+<div>
+<div dir=3D"ltr">
+<div><br>
+<br>
+<p dir=3D"ltr">Let's set up a call to discuss your requirements here. We =
+have an API that can give activations numbers if that would help you. =
+But right now the location and external storage permissions can't be =
+waived.</p>
+<br>
+</div>
+</div>
+</div>
+<div>
+<div dir=3D"ltr">
+<div>
+<div>
+<div dir=3D"ltr">On Fri, 1 Apr 2016, 09:33 Maggie Su, &lt;<a =
+href=3D"mailto:maggie.su@nf-technology.com" =
+target=3D"_blank">maggie.su@nf-technology.com</a>&gt; wrote:<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div dir=3D"ltr">
+<div>
+<div>
+<blockquote style=3D"border-left:1px #ccc solid; padding-left:1ex">
+<div lang=3D"ZH-CN">
+<div><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d">Hi Owain,<u></u><u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d"><u></u>&nbsp;<u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d">Vendor told me that
+</span><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d">Sales tracking and Repair tracking APKs permissions will =
+effect one GTS case below. could you waive it for our =
+project?</span><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d"><u></u><u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d">com.google.android.xts.permissions.DefaultPermissionGrantP=
+olicyTest -- testDefaultGrants<u></u><u></u></span><br>
+</div>
+</div>
+<div lang=3D"ZH-CN">
+<div>
+<div>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Many Thanks<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Maggie Su<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+color:#003399"><u></u>&nbsp;<u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<b><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">NF Technology
+</span></b><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;; =
+color:#003399"><u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Room 608, 6/F, Building A, TCL Plaza,
+</span><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Comic Sans MS&quot;; =
+color:#003399"><u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">GaoXin S. Rd. 1<sup>st</sup>, Hi-Tech industrial Park,
+<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Nanshan District, Shenzhen, =
+China<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span style=3D"font-size:10.5pt; =
+color:#003399">=C9=EE=DB=DA=CA=D0=C4=CF=C9=BD=C7=F8=BF=C6=BC=BC=D4=B0=C4=CF=
+=C7=F8=B8=DF=D0=C2=C4=CF=D2=BB=B5=C0</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">TCL</span><span style=3D"font-size:10.5pt; =
+color:#003399">=B4=F3=CF=C3</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">A</span><span style=3D"font-size:10.5pt; =
+color:#003399">=D7=F9</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">608<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Tel: &#43;86-755-2663 1502</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;; =
+color:#003399"><u></u><u></u></span></p>
+</div>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d"><u></u>&nbsp;<u></u></span><br>
+</div>
+</div>
+<div lang=3D"ZH-CN">
+<div>
+<div>
+<div style=3D"border:none; border-top:solid #b5c4df 1.0pt; padding:3.0pt =
+0cm 0cm 0cm">
+<b><span style=3D"font-size:10.0pt">=B7=A2=BC=FE=C8=CB<span =
+lang=3D"EN-US">:</span></span></b><span lang=3D"EN-US" =
+style=3D"font-size:10.0pt"> Maggie Su [mailto:<a =
+href=3D"mailto:maggie.su@nf-technology.com" =
+target=3D"_blank">maggie.su@nf-technology.com</a>]
+<br>
+</span><br>
+</div>
+</div>
+</div>
+</div>
+<div lang=3D"ZH-CN">
+<div>
+<div>
+<div style=3D"border:none; border-top:solid #b5c4df 1.0pt; padding:3.0pt =
+0cm 0cm 0cm">
+<b><span style=3D"font-size:10.0pt">=B7=A2=CB=CD=CA=B1=BC=E4<span =
+lang=3D"EN-US">:</span></span></b><span lang=3D"EN-US" =
+style=3D"font-size:10.0pt"> 2016</span><span =
+style=3D"font-size:10.0pt">=C4=EA<span =
+lang=3D"EN-US">3</span>=D4=C2<span lang=3D"EN-US">31</span>=C8=D5<span =
+lang=3D"EN-US"> 17:37<br>
+</span></span><br>
+</div>
+</div>
+</div>
+</div>
+<div lang=3D"ZH-CN">
+<div>
+<div>
+<div style=3D"border:none; border-top:solid #b5c4df 1.0pt; padding:3.0pt =
+0cm 0cm 0cm">
+<span style=3D"font-size:10.0pt"><b>=CA=D5=BC=FE=C8=CB<span =
+lang=3D"EN-US">:</span></b><span lang=3D"EN-US"> 'Owain Davies'<br>
+</span><b>=B3=AD=CB=CD<span lang=3D"EN-US">:</span></b><span =
+lang=3D"EN-US"> '<a href=3D"mailto:kirill-malyshev@meridiantelecom.com" =
+target=3D"_blank">kirill-malyshev@meridiantelecom.com</a>'<br>
+</span></span><br>
+</div>
+</div>
+</div>
+</div>
+<div lang=3D"ZH-CN">
+<div>
+<div>
+<div style=3D"border:none; border-top:solid #b5c4df 1.0pt; padding:3.0pt =
+0cm 0cm 0cm">
+<span style=3D"font-size:10.0pt"><b>=D6=F7=CC=E2<span =
+lang=3D"EN-US">:</span></b><span lang=3D"EN-US">
+</span>=B4=F0=B8=B4<span lang=3D"EN-US">: GMS failure due to modified =
+permissions.<u></u><u></u></span></span><br>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div dir=3D"ltr">
+<div>
+<div>
+<blockquote style=3D"border-left:1px #ccc solid; padding-left:1ex">
+<div lang=3D"ZH-CN">
+<div><span lang=3D"EN-US"><u></u>&nbsp;<u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d">We will release a demo version and do full test to check =
+which GTS cases will fail.
+<u></u><u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d">tomorrow i will send gts fail cases to you for review. =
+thanks</span><span style=3D"font-size:10.5pt; =
+color:#1f497d">=A3=A1</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d"><u></u><u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d"><u></u>&nbsp;<u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d"><u></u>&nbsp;<u></u></span><br>
+<div>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Many Thanks<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Maggie Su<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+color:#003399"><u></u>&nbsp;<u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<b><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">NF Technology
+</span></b><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;; =
+color:#003399"><u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Room 608, 6/F, Building A, TCL Plaza,
+</span><span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Comic Sans MS&quot;; =
+color:#003399"><u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">GaoXin S. Rd. 1<sup>st</sup>, Hi-Tech industrial Park,
+<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Nanshan District, Shenzhen, =
+China<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span style=3D"font-size:10.5pt; =
+color:#003399">=C9=EE=DB=DA=CA=D0=C4=CF=C9=BD=C7=F8=BF=C6=BC=BC=D4=B0=C4=CF=
+=C7=F8=B8=DF=D0=C2=C4=CF=D2=BB=B5=C0</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">TCL</span><span style=3D"font-size:10.5pt; =
+color:#003399">=B4=F3=CF=C3</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">A</span><span style=3D"font-size:10.5pt; =
+color:#003399">=D7=F9</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">608<u></u><u></u></span></p>
+<p style=3D"text-align:justify; text-justify:inter-ideograph; =
+layout-grid-mode:char">
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#003399">Tel: &#43;86-755-2663 1502</span><span lang=3D"EN-US" =
+style=3D"font-size:10.5pt; =
+font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;; =
+color:#003399"><u></u><u></u></span></p>
+</div>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d"><u></u>&nbsp;<u></u></span><br>
+<div>
+<div style=3D"border:none; border-top:solid #b5c4df 1.0pt; padding:3.0pt =
+0cm 0cm 0cm">
+<b><span style=3D"font-size:10.0pt">=B7=A2=BC=FE=C8=CB<span =
+lang=3D"EN-US">:</span></span></b><span lang=3D"EN-US" =
+style=3D"font-size:10.0pt"> Maggie Su [mailto:<a =
+href=3D"mailto:maggie.su@nf-technology.com" =
+target=3D"_blank">maggie.su@nf-technology.com</a>]
+<br>
+</span><b><span style=3D"font-size:10.0pt">=B7=A2=CB=CD=CA=B1=BC=E4<span =
+lang=3D"EN-US">:</span></span></b><span lang=3D"EN-US" =
+style=3D"font-size:10.0pt"> 2016</span><span =
+style=3D"font-size:10.0pt">=C4=EA<span =
+lang=3D"EN-US">3</span>=D4=C2<span lang=3D"EN-US">31</span>=C8=D5<span =
+lang=3D"EN-US"> 17:08<br>
+</span><b>=CA=D5=BC=FE=C8=CB<span lang=3D"EN-US">:</span></b><span =
+lang=3D"EN-US"> 'Owain Davies'<br>
+</span><b>=B3=AD=CB=CD<span lang=3D"EN-US">:</span></b><span =
+lang=3D"EN-US"> '<a href=3D"mailto:kirill-malyshev@meridiantelecom.com" =
+target=3D"_blank">kirill-malyshev@meridiantelecom.com</a>'<br>
+</span><b>=D6=F7=CC=E2<span lang=3D"EN-US">:</span></b><span =
+lang=3D"EN-US"> GMS failure due to modified permissions.<br>
+</span><b>=D6=D8=D2=AA=D0=D4<span lang=3D"EN-US">:</span></b><span =
+lang=3D"EN-US"> </span>=B8=DF<span =
+lang=3D"EN-US"><u></u><u></u></span></span><br>
+</div>
+</div>
+<span lang=3D"EN-US"><u></u>&nbsp;<u></u></span><br>
+<span lang=3D"EN-US" style=3D"color:#1f497d">Hi Owain</span><span =
+style=3D"color:#1f497d">=A3=AC</span><span =
+lang=3D"EN-US"><u></u><u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d"><u></u>&nbsp;<u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d">Kirill told me that we have requested to leverage Sales =
+tracking and Repair tracking APKs permission in Android code, but will =
+fail some cts cases. So what should
+ we do to waive these cases next??<u></u><u></u></span><br>
+<span lang=3D"EN-US" style=3D"font-size:10.5pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:#1f497d">or waiting for your feedback?<u></u><u></u></span><br>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div dir=3D"ltr">
+<div>
+<div>
+<blockquote style=3D"border-left:1px #ccc solid; padding-left:1ex">
+<div lang=3D"ZH-CN">
+<div>
+<div><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><br>
+<br>
+<span style=3D"color:#2672ec">_______________________________</span><br>
+<b>Kirill Malyshev</b>&nbsp;| Head of VAS division<br>
+Meridian Group,&nbsp;</span><b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Bookman Old Style&quot;,&quot;serif&quot;; =
+color:#005da2">Fly&nbsp;</span></b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Moscow<b=
+r>
+<b>Mobile</b>: &#43;7 910 4333667<u></u><u></u></span><br>
+<div><b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Telegram=
+</span></b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">: =
+@kirillmalyshev<u></u><u></u></span><br>
+<div><span lang=3D"EN-US" style=3D"font-size:10.0pt; =
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Skype: =
+kirill-malyshev</span><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><u></u><=
+u></u></span><br>
+</div>
+</div>
+<span lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><u></u>&=
+nbsp;<u></u></span><br>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div dir=3D"ltr">
+<div>
+<div>
+<blockquote style=3D"border-left:1px #ccc solid; padding-left:1ex">
+<div lang=3D"ZH-CN">
+<div>
+<div>
+<div>
+<div>
+<div>
+<blockquote>
+<div><b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">=A7=B0=
+=A7=E4=A7=E1=A7=E2=A7=D1=A7=D3=A7=DA=A7=E4=A7=D6=A7=DD=A7=EE:
+</span></b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">Ken =
+Liao (</span>=C1=CE=BD=A1=D6=BE<span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">) =
+&lt;<a href=3D"mailto:Ken.Liao@mediatek.com" =
+target=3D"_blank">Ken.Liao@mediatek.com</a>&gt;</span><span =
+lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><u></u><=
+u></u></span><br>
+</div>
+<div><b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">=A7=B4=
+=A7=D6=A7=DE=A7=D1: RE: [Frog] FS405 &amp; FS507 issue list needed MTK =
+support</span></b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><u></u><=
+u></u></span><br>
+</div>
+<div><b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">=A7=A5=
+=A7=D1=A7=E4=A7=D1: </span>
+</b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">31 =
+=A7=DE=A7=D1=A7=E2=A7=E4=A7=D1 2016 =A7=D4., 9:33:03 =
+GMT&#43;3</span><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><u></u><=
+u></u></span><br>
+</div>
+<div><b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">=A7=B1=
+=A7=E0=A7=DD=A7=E5=A7=E9=A7=D1=A7=E4=A7=D6=A7=DD=A7=EE:
+</span></b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">Kane =
+Zhao &lt;<a href=3D"mailto:kane.zhao@nf-technology.com" =
+target=3D"_blank">kane.zhao@nf-technology.com</a>&gt;, 'Alex' &lt;<a =
+href=3D"mailto:asmirnov@meridiantelecom.com" =
+target=3D"_blank">asmirnov@meridiantelecom.com</a>&gt;,
+ Charlotte Lee (</span>=C0=EE=CA=E7=C3=C0<span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">) =
+&lt;<a href=3D"mailto:Charlotte.Lee@mediatek.com" =
+target=3D"_blank">Charlotte.Lee@mediatek.com</a>&gt;</span><span =
+lang=3D"EN-US" =
+style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><u></u><=
+u></u></span><br>
+</div>
+<div><b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">=A7=AC=
+=A7=E0=A7=E1=A7=DA=A7=F1: </span>
+</b><span lang=3D"EN-US" =
+style=3D"font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">&quot;=
+<a href=3D"mailto:lisa@ifrogmobile.com" =
+target=3D"_blank">lisa@ifrogmobile.com</a>&quot; &lt;<a =
+href=3D"mailto:lisa@ifrogmobile.com" =
+target=3D"_blank">lisa@ifrogmobile.com</a>&gt;, 'Gerasev Alexey' &lt;<a =
+href=3D"mailto:alexg@meridiantelecom.com" =
+target=3D"_blank">alexg@meridiantelecom.com</a>&gt;,
+ 'Pavel Belousov' &lt;<a href=3D"mailto:pavel@meridiantelecom.com" =
+target=3D"_blank">pavel@meridiantelecom.com</a>&gt;, 'Dmitriy =
+Makovieiev' &lt;<a 
